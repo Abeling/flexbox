@@ -34,7 +34,7 @@ header h1 {
     margin: 0;
     padding: 1rem;
 }
- 
+
 header p {
     text-align: right;
     margin-right: 2em;
@@ -85,6 +85,18 @@ footer {
     text-shadow: 1px 1px 10px black;
 }
 
+#formimg {
+  width: 100%;
+}
+
+#formtext {
+  width: calc(100% - 44px);
+}
+
+#formsubmit {
+  width: 34px;
+}
+
 /*lay-out met flexbox*/
 
 /*eerst mobiel*/
@@ -107,15 +119,15 @@ footer:after {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
     article {
         width: 100%;
     }
-    
+
     aside {
         flex: 1;
     }
-    
+
     footer:after {
         content: ' Dit is voor apparaten tussen 26 em en 36 em';
     }
@@ -126,16 +138,16 @@ footer:after {
     main {
         flex-wrap: nowrap;
     }
-    
+
     article {
         width: auto;
         flex: 3;
     }
-    
+
     aside {
         order: 0;
     }
-    
+
     footer:after {
         content: ' Dit is voor schermen groter dan 36 em';
     }

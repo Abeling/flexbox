@@ -29,7 +29,7 @@ body {
     text-align: right;
 }
 
-.punt p:nth-last-child(2) {
+.punt p:nth-child(2) {
     font-size: .7em;
     text-align: right;
 }
@@ -41,4 +41,15 @@ body {
 
 .punt p em a:hover {
     border-bottom: 1px solid black;
+}
+
+footer {
+    display: block;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
 }
